@@ -16,6 +16,7 @@ class TestScreen extends StatefulWidget {
 }
 
 class _TestScreenState extends State<TestScreen> {
+  // initial currency toconvert
   String? currencyCode = "CAD";
   final convertedValue = TextEditingController();
   bool fetchingdata = false;
